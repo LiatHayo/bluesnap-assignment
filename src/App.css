@@ -1,0 +1,40 @@
+section {
+  margin: 1rem auto;
+  width: 90%;
+  max-width: 40rem;
+  text-align: center;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 12px;
+}
+
+select, button {
+  font: inherit;
+  cursor: pointer;
+  background: #191222;
+  border: 1px solid #191222;
+  color: white;
+  padding: 0.5rem 2rem;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+select, button:focus {
+  outline: none;
+}
+
+button:hover,
+button:active {
+  background-color: #281e36;
+  border-color: #281e36;
+}
+
+select:hover,
+select:active {
+  background-color: #281e36;
+  border-color: #281e36;
+}
+
+html {
+  font-family: 'Calibri';
+}
